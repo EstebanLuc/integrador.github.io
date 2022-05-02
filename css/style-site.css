@@ -1,0 +1,51 @@
+.btn-trans {
+    color: white;
+    border: white solid 1px;
+  }
+  .btn-ticket {
+    margin-left: 15px;
+    color: white;
+    background-color: #27a844;
+  }
+  .carousel-caption {
+    text-align: right;
+    left: 50%;
+    width: 40%;
+    margin-bottom: 5%;
+  }
+  .btn-submit {
+    color: white;
+    background-color: #96c93e;
+    width: 100%;
+  }
+  .carousel-item:before {
+    content:'';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.3);
+  }
+  .footer {
+    background-color: #1f4d67;
+  }
+
+ /*footer > section > div > div:nth-child(1) > a*/
+ footer > section > div > .col > a {
+    color: white;
+    text-decoration: none;
+  }
+  .text-secondary{
+    font-size: 14px;
+  }
+  .card-grey {
+    background-color: #333a40;
+    color: white;
+  }
+  .card-title {
+    font-size: 22px;
+  }
+  .card-text {
+    font-size: 14px;
+  }
