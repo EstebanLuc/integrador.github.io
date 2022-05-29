@@ -10,8 +10,6 @@ const form = document.getElementById('form');
 
 form.addEventListener('submit' , function(event){
     event.preventDefault();
-    console.log(nombre +" " + apellido +" " + correo +" " + categoria + " "+ cantidad);
-    console.log(form);
     let total = (cantidad.value * categoria.value * 200) / 100;
     console.log(total);
     document.getElementById('total').textContent = total;
